@@ -8,12 +8,12 @@
         <a
           class="navbar-item"
           href="/">
-          <img
-            src="~assets/buefy.png"
-            alt="Buefy"
-            height="28">
+          Shikshalaya
+          <!--<img-->
+          <!--src="~assets/buefy.png"-->
+          <!--alt="Buefy"-->
+          <!--height="28">-->
         </a>
-
         <div class="navbar-burger">
           <span/>
           <span/>
@@ -33,14 +33,15 @@
             <nuxt-link
               :to="item.to"
               exact-active-class="is-active">
-              <b-icon :icon="item.icon"/> {{ item.title }}
+              <b-icon :icon="item.icon"/>
+              {{ item.title }}
             </nuxt-link>
           </li>
         </ul>
       </aside>
 
       <div class="container column is-10">
-        <nuxt />
+        <nuxt/>
       </div>
 
     </section>
@@ -48,14 +49,19 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      items: [
-        { title: 'Home', icon: 'home', to: { name: 'index' } },
-        { title: 'Inspire', icon: 'lightbulb', to: { name: 'inspire' } }
-      ]
+  export default {
+    data() {
+      return {
+        items: [
+          {title: 'Home', icon: 'home', to: {name: 'index'}},
+          {title: 'About', icon: 'lightbulb', to: {name: 'about'}}
+        ]
+      }
     }
   }
-}
 </script>
+<style>
+  .card-content {
+    /*background-color: aliceblue;*/
+  }
+</style>
