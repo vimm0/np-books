@@ -50,7 +50,7 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
   },
   router: {
-    base: '/np-books/'
+    // base: '/np-books/'
   },
   /*
   ** Build configuration
