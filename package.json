@@ -8,6 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "generate": "nuxt generate"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.2.1",
+    "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
