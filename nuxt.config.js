@@ -52,6 +52,27 @@ module.exports = {
   router: {
     // base: '/np-books/'
   },
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://np-books.netlify.com',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    generate: false, // Enable me when using nuxt generate
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ],
+    routes: [
+      '/',
+      '/about',
+      {
+        url: '/',
+        changefreq: 'monthly',
+        priority: 1,
+        lastmodISO: '2018-06-30T13:30:00.000Z'
+      }
+    ]
+  },
   /*
   ** Build configuration
   */
