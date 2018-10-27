@@ -57,7 +57,7 @@ module.exports = {
     hostname: 'https://np-books.netlify.com',
     cacheTime: 1000 * 60 * 15,
     gzip: true,
-    generate: false, // Enable me when using nuxt generate
+    generate: true, // Enable me when using nuxt generate
     exclude: [
       '/secret',
       '/admin/**'
