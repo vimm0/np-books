@@ -1,6 +1,6 @@
 # np-books
 
-> My doozie Nuxt.js project
+> Shikshalaya (book repository for students.)
 
 ## Build Setup
 
