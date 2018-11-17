@@ -30,7 +30,10 @@
         structuredData: {
           "@context": "http://schema.org",
           "@type": "AboutPage",
-          "speciality": this.about
+          "speciality": this.about,
+          "datePublished": "2018-09-20",
+          "dateCreated": "2018-09-20",
+          "dateModified": "2018-09-20",
         },
         features: [
           {

@@ -77,7 +77,10 @@
           "@type": "WebSite",
           "about": this.about,
           "keywords": this.keywords,
-          "genre": "Education"
+          "genre": "Education",
+          "datePublished": "2018-09-20",
+          "dateCreated": "2018-09-20",
+          "dateModified": "2018-09-20",
         },
         features: [
           {
