@@ -70,13 +70,11 @@
     components: {BLogo},
     data() {
       return {
-        about: "Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject.",
-        keywords: "shikshalaya Shikshalaya cist CSIT Csit Csit 1st 2nd 3rd 4th 5th 6th 7th 8th first second third fourth fifth sixth seventh eigthsemester ",
         structuredData: {
           "@context": "http://schema.org",
           "@type": "WebSite",
-          "about": this.about,
-          "keywords": this.keywords,
+          "about": "Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject.",
+          "keywords": "shikshalaya Shikshalaya cist CSIT Csit Csit 1st 2nd 3rd 4th 5th 6th 7th 8th first second third fourth fifth sixth seventh eigthsemester ",
           "genre": "Education",
           "datePublished": "2018-09-20",
           "dateCreated": "2018-09-20",

@@ -30,7 +30,7 @@
         structuredData: {
           "@context": "http://schema.org",
           "@type": "AboutPage",
-          "speciality": this.about,
+          "speciality": "Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject.",
           "datePublished": "2018-09-20",
           "dateCreated": "2018-09-20",
           "dateModified": "2018-09-20",
