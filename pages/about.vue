@@ -8,7 +8,7 @@
         <p class="card-header-title has-text-grey">
           {{ feature.title }}
         </p>
-        <div class="card-content">
+        <div class="card-content about">
           <div class="content has-text-centered">
             <p>{{about}}</p>
           </div>
@@ -51,7 +51,7 @@
   }
 </script>
 <style>
-  .card-content {
+  div.about {
     background: aliceblue;
   }
 </style>
