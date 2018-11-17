@@ -53,6 +53,9 @@ module.exports = {
   router: {
     // base: '/np-books/'
   },
+  env: {
+    HOST_URL: 'https://np-books.netlify.com',
+  },
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://np-books.netlify.com',

@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="is-size-2 has-text-centered" v-if="error.statusCode === 404">Page not found</h1>
     <h1 class="is-size-2 has-text-centered" v-else>An error occurred</h1>
-    <div class="has-text-centered" style="margin-top:2rem;">
+    <div class="button has-text-centered">
       <nuxt-link class="button" to="/">Return Home page</nuxt-link>
     </div>
   </div>
@@ -13,3 +13,8 @@
     props: ['error'],
   }
 </script>
+<style>
+  div.button{
+    margin-top:2rem;
+  }
+</style>

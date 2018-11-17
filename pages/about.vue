@@ -5,14 +5,14 @@
         v-for="(feature, i) of features"
         :key="i"
         class="column">
-            <p class="card-header-title has-text-grey">
-              {{ feature.title }}
-            </p>
-          <div class="card-content" style="background:aliceblue;">
-            <div class="content has-text-centered">
-              <p>{{about}}</p>
-            </div>
+        <p class="card-header-title has-text-grey">
+          {{ feature.title }}
+        </p>
+        <div class="card-content">
+          <div class="content has-text-centered">
+            <p>{{about}}</p>
           </div>
+        </div>
       </div>
     </div>
   </section>
@@ -50,3 +50,8 @@
     },
   }
 </script>
+<style>
+  .card-content {
+    background: aliceblue;
+  }
+</style>
