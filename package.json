@@ -1,7 +1,7 @@
 {
   "name": "np-books",
   "version": "1.0.0",
-  "description": "Shikshalaya (book repository for students.)",
+  "description": "Shikshalaya (book repository for students) is a non-profit educational organization. All resources are available to users of the website. The website and its content are provided mainly in English focused for CSIT students.",
   "author": "vimm0",
   "private": true,
   "scripts": {

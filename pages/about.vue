@@ -5,9 +5,9 @@
         v-for="(feature, i) of features"
         :key="i"
         class="column">
-        <p class="card-header-title has-text-grey">
+        <h5 class="card-header-title has-text-grey">
           {{ feature.title }}
-        </p>
+        </h5>
         <div class="card-content about">
           <div class="content has-text-centered">
             <p>{{about}}</p>
@@ -26,11 +26,11 @@
     components: {BLogo},
     data() {
       return {
-        about: "Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject.",
+        about: "Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject. Our Vision is to offer pedagogically differentiated technology driven solutions that lead to critical thinking and achievement of higher learning outcomes by seamlessly integrating in-class. Our Aim is to bridge the gap between what is taught in-class using Institutional textbook driven solutions and retail at-home learning providers by seamlessly integrating both. There is no single solution provider offering an end-to-end solution in the market today.",
         structuredData: {
           "@context": "http://schema.org",
           "@type": "AboutPage",
-          "speciality": "Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject.",
+          "speciality": "Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject. Our Vision is to offer pedagogically differentiated technology driven solutions that lead to critical thinking and achievement of higher learning outcomes by seamlessly integrating in-class. Our Aim is to bridge the gap between what is taught in-class using Institutional textbook driven solutions and retail at-home learning providers by seamlessly integrating both. There is no single solution provider offering an end-to-end solution in the market today.",
           "datePublished": "2018-09-20",
           "dateCreated": "2018-09-20",
           "dateModified": "2018-09-20",
