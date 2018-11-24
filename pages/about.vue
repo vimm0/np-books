@@ -48,7 +48,10 @@
         title: 'About',
         titleTemplate: '%s | Shikshalaya',
         __dangerouslyDisableSanitizers: ['script'],
-        script: [{innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json'}]
+        script: [{innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json'}],
+        link: [
+          {rel: 'canonical', href: 'https://np-books.netlify.com/about'}
+        ]
       }
     },
   }

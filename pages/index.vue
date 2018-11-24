@@ -58,12 +58,14 @@
               <a :href="`https://www.facebook.com/sharer/sharer.php?u=${url}&amp;src=sdkpreparse`"
                  target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm3 8h-1.35c-.54 0-.65.22-.65.78V10h2l-.2 2H13v7h-3v-7H8v-2h2V7.7c0-1.78.93-2.7 3.03-2.7H15v3z"></path>
+                  <path
+                    d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm3 8h-1.35c-.54 0-.65.22-.65.78V10h2l-.2 2H13v7h-3v-7H8v-2h2V7.7c0-1.78.93-2.7 3.03-2.7H15v3z"></path>
                 </svg>
               </a>
               <a :href="`https://twitter.com/intent/tweet?url=${url};`">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm6.07 9.64A8.12 8.12 0 0 1 9.9 18.2a8.13 8.13 0 0 1-4.4-1.3 5.78 5.78 0 0 0 4.25-1.18 2.88 2.88 0 0 1-2.68-2c.45.09.9.06 1.3-.05a2.88 2.88 0 0 1-2.3-2.85c.38.22.82.35 1.3.36a2.88 2.88 0 0 1-.9-3.83 8.15 8.15 0 0 0 5.92 3 2.88 2.88 0 0 1 4.9-2.62 5.73 5.73 0 0 0 1.82-.7 2.88 2.88 0 0 1-1.26 1.59 5.73 5.73 0 0 0 1.65-.45 5.77 5.77 0 0 1-1.43 1.49z"></path>
+                  <path
+                    d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm6.07 9.64A8.12 8.12 0 0 1 9.9 18.2a8.13 8.13 0 0 1-4.4-1.3 5.78 5.78 0 0 0 4.25-1.18 2.88 2.88 0 0 1-2.68-2c.45.09.9.06 1.3-.05a2.88 2.88 0 0 1-2.3-2.85c.38.22.82.35 1.3.36a2.88 2.88 0 0 1-.9-3.83 8.15 8.15 0 0 0 5.92 3 2.88 2.88 0 0 1 4.9-2.62 5.73 5.73 0 0 0 1.82-.7 2.88 2.88 0 0 1-1.26 1.59 5.73 5.73 0 0 0 1.65-.45 5.77 5.77 0 0 1-1.43 1.49z"></path>
                 </svg>
               </a>
             </div>
@@ -123,7 +125,10 @@
           'twitter:description': 'Shikshalaya is repository for collection of books, which will eventually help student learn their academic as well as passionate subject. Our Vision is to offer pedagogically differentiated technology driven solutions that lead to critical thinking and achievement of higher learning outcomes by seamlessly integrating in-class. Our Aim is to bridge the gap between what is taught in-class using Institutional textbook driven solutions and retail at-home learning providers by seamlessly integrating both. There is no single solution provider offering an end-to-end solution in the market today.',
           'twitter:url': this.url || '',
           'twitter:image': 'https://cdn.cnn.com/cnnnext/dam/assets/171208142109-03-kalita-books-restricted-exlarge-169.jpg',
-        }]
+        }],
+        link: [
+          {rel: 'canonical', href:'https://np-books.netlify.com/'}
+        ]
       }
     },
   }
