@@ -50,7 +50,7 @@
                 <li><a href="https://drive.google.com/drive/folders/0B9CtJKMoc8wndG9Vc3lEOU9hZkk"><h6>Bsc. Csit Semester
                   Seventh</h6></a>
                 </li>
-                <li><a href="https://drive.google.com/drive/folders/0B9CtJKMoc8wndG9Vc3lEOU9hZkk"><h6>Bsc. Csit Semester
+                <li><a href="https://drive.google.com/drive/folders/0B9CtJKMoc8wnTGtUZzNvbjVIMFE"><h6>Bsc. Csit Semester
                   Eighth</h6></a>
                 </li>
               </ul>
